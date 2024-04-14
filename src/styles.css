@@ -1,0 +1,15 @@
+/* src/styles.css */
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.react-calendar__month-view__weekdays {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: 400;
+}
+
+.react-calendar {
+  width: 95%;
+}
